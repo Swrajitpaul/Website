@@ -1,0 +1,82 @@
+body {
+  background-color: White;
+}
+header{
+  font-style: normal;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  position: fixed;
+  left: 41%;
+  bottom: 45%;
+}
+
+
+.btn{
+    padding: 0px;
+    margin: 0 0 10px 0;
+    position: relative;
+}
+.btn li{
+    font-size: 50px;
+    display: block;
+}
+.btn li a{
+	color: transparent;
+	display: block;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 5px #fff;
+	letter-spacing: 1px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.btn:hover li a{
+	text-shadow: 0px 0px 5px #0d1a3a;
+}
+.btn li a:hover{
+	color: #fff;
+	text-shadow: 0px 0px 1px #fff;
+	padding-left: 10px;
+}
+a:link{
+  text-decoration: none;
+}
+
+.btn {
+    border-style: none;
+    background-color:inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+section{
+  position: fixed;
+  left: 1%;
+  top: 1%;
+}
+
+img{
+  position: fixed;
+  top: 30%;
+  left: 28%;
+}
+
+.btn:hover {background: beige;}
+
+.homepage{
+  background-color: crimson;
+}
+footer{
+    background-color: grey;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
